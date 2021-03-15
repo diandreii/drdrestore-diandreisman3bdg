@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products|Dr.Dre Store  Official</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+              
+            </ul>
+        </nav>
+
+        <img src="images/menu.png" class="menu-icon" onclick="menutoogle()">
+        </div> 
+        
+    </div>
+   </div>
+
+<!------ single product details ------>
+   <div class="small-container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="images/vince carter jersey.jpg" width="100%" id="productImg">
+           <div class="col-2">
+               <p>Home/Jersey</p>
+               <h1>Toronto Raptors Vince Carter</h1>
+               <h4>IDR 5.000.000</h4>
+               <select >
+                   <option >Select Size</option>
+                   <option >Large</option>
+                   <option >Medium</option>
+                   <option >Small </option>
+               </select>
+               <input type="number" value="1">
+               <a href="https://api.whatsapp.com/send?phone=6282321890155%text=Dr.Dre%20Official%20Store%20Order%0AItem%20Name%3A%0APrice%3A%0AQuantity%3A%0ASize/Color%3A" class="btn">Buy Now! </a>
+               <h3>Product Details <i class="fa fa-indent"></i></h3>
+<br>
+               <p>The "Vinsanity" is here! The best dunker in the league all-time, Vincer Carter! Man when he gets in the air,
+                   just don't get posterized by him make sure just clear the takeoff way.
+               </p>
+
+           </div>
+       </div>
+   </div>
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+        <p class="copyright">Copyright 2021 - &#169; Dr.Dre Official</p>
+    </div>
+</div>
+<!----------- js for toogle menu --------->
+
+    <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoogle() {
+            if  (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+<!--js for product gallery-->
+<script>
+    var productImg = document.getElementById("productImg");
+</script>
+</body>
+</html>

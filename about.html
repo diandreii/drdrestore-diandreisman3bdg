@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About|Dr.Dre Store  Official</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                
+              
+            </ul>
+        </nav>
+       
+        <img src="images/menu.png" class="menu-icon" onclick="menutoogle()">
+        </div> 
+        <div class="row">
+            <div class="col-2">
+                <h1>The Maker of This Website</h1>
+                <p1>Hi! My Name is Diandrei Azkariantama Hamdani. I'm from SMAN 3 Bandung and currently I'm still an active
+                    student at second grade there. I'm 16 but this year will be 17 on april. So this is my first legitimately website. 
+                    This website contains basketball gears because I loved basketball so, please enjoy the items!
+                </p1>
+                <p1>If you have an question you can contact me at</p1>
+                <p1>Instagram: diandreii</p1>
+                <p1>Line     : diandreiahamdani</p1>
+                <p1>Whatsapp : 082321890155</p1>
+            </div>
+            <div class="col-2">
+                <img src="images/me.jpeg" >
+            </div>
+    </div>
+   </div>
+
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+        <p class="copyright">Copyright 2021 - &#169; Dr.Dre Official</p>
+    </div>
+</div>
+<!----------- js for toogle menu --------->
+
+    <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoogle() {
+            if  (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+<!--js for product gallery-->
+<script>
+    var productImg = document.getElementById("productImg");
+</script>
+</body>
+</html>
+

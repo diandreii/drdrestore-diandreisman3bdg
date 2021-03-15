@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Star Pro BB|Dr.Dre Store  Official</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                
+              
+            </ul>
+        </nav>
+   
+        <img src="images/menu.png" class="menu-icon" onclick="menutoogle()">
+        </div> 
+        
+    </div>
+   </div>
+
+<!------ single product details ------>
+   <div class="small-container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="images/converse all star pro BB shoes.jpg" width="100%" id="productImg">
+           <div class="col-2">
+               <p>Home/Shoes</p>
+               <h1>Converse All Star Pro BB  </h1>
+               <h4>IDR 2.200.000</h4>
+               <select >
+                <option >Select Size</option>
+                <option >46</option>
+                <option >45</option>
+                <option >44</option>
+                <option >43</option>
+                <option >42</option>
+               </select>
+               <input type="number" value="1">
+               <a href="https://api.whatsapp.com/send?phone=6282321890155%text=Dr.Dre%20Official%20Store%20Order%0AItem%20Name%3A%0APrice%3A%0AQuantity%3A%0ASize/Color%3A" class="btn">Buy Now! </a>
+               <h3>Product Details <i class="fa fa-indent"></i></h3>
+<br>
+               <p>The Converse All Star Pro BB is the first performance basketball shoe from Converse in a long time, so how does it perform?
+
+                The traction is divisive, some really liked it on clean courts, others complain about inconsistency, especially on dustier courts.
+                
+                The React insole is rather firm and works best for players who prefer responsiveness and court feel over impact protection.
+                
+                The upper materials are similar to the Kobe AD NXT 360 and are very minimal, thin and breathable but don't provide a ton of support.
+                
+                Overall, the Converse Pro BB is a solid performance basketball shoe that would come strongly recommended if the traction was more consistent.</p>
+           </div>
+       </div>
+   </div>
+   </div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+        <p class="copyright">Copyright 2021 - &#169; Dr.Dre Official</p>
+    </div>
+</div>
+<!----------- js for toogle menu --------->
+
+    <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoogle() {
+            if  (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+<!--js for product gallery-->
+<script>
+    var productImg = document.getElementById("productImg");
+</script>
+</body>
+</html>
+

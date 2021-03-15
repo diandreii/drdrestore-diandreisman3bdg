@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Nash|Dr.Dre Store  Official</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+            
+              
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoogle()">
+        </div> 
+        
+    </div>
+   </div>
+
+<!------ single product details ------>
+   <div class="small-container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="images/steve nash jersey.jpg" width="100%" id="productImg">
+           <div class="col-2">
+               <p>Home/Jersey</p>
+               <h1>Phoenix Suns Steve Nash</h1>
+               <h4>IDR 2.500.000</h4>
+               <select >
+                   <option >Select Size</option>
+                   <option >Large</option>
+                   <option >Medium</option>
+                   <option >Small </option>
+               </select>
+               <input type="number" value="1">
+               <a href="https://api.whatsapp.com/send?phone=6282321890155%text=Dr.Dre%20Official%20Store%20Order%0AItem%20Name%3A%0APrice%3A%0AQuantity%3A%0ASize/Color%3A" class="btn">Buy Now! </a>
+               <h3>Product Details <i class="fa fa-indent"></i></h3>
+<br>
+               <p>The Suns leader in 09', here we welcome you Steve Nash! He is a good player with a good passing ability,
+                Smart player, and a good leader. Sadly, he can't win a trophy with the Suns Superteam back then but that was
+                a hell of a record with a good 3pt percentage team.
+               </p>
+
+           </div>
+       </div>
+   </div>
+
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+        <p class="copyright">Copyright 2021 - &#169; Dr.Dre Official</p>
+    </div>
+</div>
+<!----------- js for toogle menu --------->
+
+    <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoogle() {
+            if  (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+<!--js for product gallery-->
+<script>
+    var productImg = document.getElementById("productImg");
+</script>
+</body>
+</html>

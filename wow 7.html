@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products|Dr.Dre Store  Official</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               
+            </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+              
+            </ul>
+        </nav>
+       
+        <img src="images/menu.png" class="menu-icon" onclick="menutoogle()">
+        </div> 
+        
+    </div>
+   </div>
+
+<!------ single product details ------>
+   <div class="small-container single-product">
+       <div class="row">
+           <div class="col-2">
+               <img src="images/way of wade 7 one last dance shoes.jpg" width="100%" id="productImg">
+           <div class="col-2">
+               <p>Home/Shoes</p>
+               <h1>Way of Wade 7 "One Last Dance" </h1>
+               <h4>IDR 7.000.000</h4>
+               <select >
+                <option >Select Size</option>
+                <option >46</option>
+                <option >45</option>
+                <option >44</option>
+                <option >43</option>
+                <option >42</option>
+               </select>
+               <input type="number" value="1">
+               <a href="https://api.whatsapp.com/send?phone=6282321890155%text=Dr.Dre%20Official%20Store%20Order%0AItem%20Name%3A%0APrice%3A%0AQuantity%3A%0ASize/Color%3A" class="btn">Buy Now! </a>
+               <h3>Product Details <i class="fa fa-indent"></i></h3>
+<br>
+               <p>The Way of Wade 7 gets mixed reviews. In general, reviewers weren't happy about how the traction performed. Especially on dusty courts, there was a lot of slipping and the outsole is not easy to wipe.
+
+                The cushioning is a little less soft than in the Way of Wade 6, but it's still very comfortable and plush.
+                
+                The highlights of the WOW 7 are definitely the premium materials and the great build quality - these shoes will last a long time!
+                
+                Overall,  there are better performers out there, but if you play on clean courts and you're a fan of Dwyane Wade, give these a chance!
+            </p>
+           </div>
+       </div>
+   </div>
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+        <p class="copyright">Copyright 2021 - &#169; Dr.Dre Official</p>
+    </div>
+</div>
+<!----------- js for toogle menu --------->
+
+    <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoogle() {
+            if  (MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else 
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+<!--js for product gallery-->
+<script>
+    var productImg = document.getElementById("productImg");
+</script>
+</body>
+</html>
+
